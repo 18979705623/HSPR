@@ -1,15 +1,15 @@
 # Hierarchical Spatial Proximity Reasoning for Vision-and-Language Navigation
 
-Most Vision-and-Language Navigation (VLN) algorithms tend to make deci-sion errors, primarily due to a lack of visual common sense 
-and insufficient reasoning capabilities. To address this issue, this paper proposes a Hierar-chical Spatial Proximity Reasoning (HSPR) model. 
-Firstly, we design a Sce-ne Understanding Auxiliary Task (SUAT) to assist the agent in constructing a knowledge base of hierarchical spatial proximity 
+Most Vision-and-Language Navigation (VLN) algorithms tend to make decision errors, primarily due to a lack of visual common sense 
+and insufficient reasoning capabilities. To address this issue, this paper proposes a Hierarchical Spatial Proximity Reasoning (HSPR) model. 
+Firstly, we design a Scene Understanding Auxiliary Task (SUAT) to assist the agent in constructing a knowledge base of hierarchical spatial proximity 
 for reasoning navigation. Specifically, this task utilizes panoramic views and object features to identify regions in the navigation environment 
-and uncover the adjacency relation-ships between regions, objects, and region-object pairs. Secondly, we dynam-ically construct a semantic topological map 
-through agent-environment in-teractions and propose a Multi-step Reasoning Navigation Algorithm (MRNA) based on the map. This algorithm continuously 
-plans various feasi-ble paths from one region to another, utilizing the constructed proximity knowledge base, enabling more efficient exploration. 
-Additionally, we intro-duce a Proximity Adaptive Attention Module (PAAM) and Residual Fusion Method (RFM) to enable the model to obtain more accurate 
-navigation deci-sion confidence. Finally, we conduct experiments on publicly available da-tasets including REVERIE, SOON, R2R, and R4R to validate the 
-effective-ness of the proposed approach.
+and uncover the adjacency relationships between regions, objects, and region-object pairs. Secondly, we dynamically construct a semantic topological map 
+through agent-environment interactions and propose a Multi-step Reasoning Navigation Algorithm (MRNA) based on the map. This algorithm continuously 
+plans various feasible paths from one region to another, utilizing the constructed proximity knowledge base, enabling more efficient exploration. 
+Additionally, we introduce a Proximity Adaptive Attention Module (PAAM) and Residual Fusion Method (RFM) to enable the model to obtain more accurate 
+navigation decision confidence. Finally, we conduct experiments on publicly available datasets including REVERIE, SOON, R2R, and R4R to validate the 
+effectiveness of the proposed approach.
 
 ![framework](files/teaser.png)
 
