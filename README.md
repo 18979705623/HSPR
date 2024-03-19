@@ -22,7 +22,7 @@ effectiveness of the proposed approach.
 export PYTHONPATH=Matterport3DSimulator/build:$PYTHONPATH
 ```
 
-2. Install python>=3.8, pytorch==1.7.1:
+2. Install python>=3.8, pytorch==1.7.1.
 
 ```setup
 conda create --name hspr python=3.8.5
@@ -33,7 +33,7 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-3. Install requirements:
+3. Install requirements.
 
 ```setup
 pip install -r requirements.txt
@@ -44,7 +44,7 @@ pip install -r requirements.txt
    the navigation environment from [Baidu Netdisk](https://pan.baidu.com/s/1MbS43QQkqtDBPWZ-hr5Uqg?pwd=23r7), and put it
    all into the 'datasets' directory.
 
-5. Download pretrained lxmert
+5. Download pretrained lxmert.
 
 ```
 mkdir -p datasets/pretrained 
@@ -53,7 +53,7 @@ wget https://nlp.cs.unc.edu/data/model_LXRT.pth -P datasets/pretrained
 
 ## Pretraining
 
-Combine behavior cloning and auxiliary proxy tasks in pretraining:
+Combine behavior cloning and auxiliary proxy tasks in pretraining.
 
 ```pretrain
 cd pretrain_auxiliary_src
@@ -62,7 +62,7 @@ bash run_reverie.sh # (run_soon.sh, run_r2r.sh, run_r4r.sh)
 
 ## Fine-tuning & Evaluation
 
-Use pseudo interative demonstrator to fine-tune the model:
+Use pseudo interative demonstrator to fine-tune the model.
 
 ```finetune
 cd reasoning_nav_src
