@@ -1,4 +1,4 @@
-# Hierarchical Spatial Proximity Reasoning for Vision-and-Language Navigation
+# [Hierarchical Spatial Proximity Reasoning for Vision-and-Language Navigation](https://arxiv.org/abs/2403.11541)
 
 Most Vision-and-Language Navigation (VLN) algorithms tend to make decision errors, primarily due to a lack of visual common sense 
 and insufficient reasoning capabilities. To address this issue, this paper proposes a Hierarchical Spatial Proximity Reasoning (HSPR) model. 
